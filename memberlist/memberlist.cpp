@@ -10,14 +10,22 @@ private:
 	float nilai;
 
 public:
-	mahasiswa (int pId, string pNama, float pNilai) :id(pId), nama(pNama) {
+	mahasiswa (int pId, string pNama, float PNilai)
+		:id(pId), nama(pNama), nilai(PNilai) {
 		//Definisi
 	}
 
 	~mahasiswa() {
-		cout << "id    = " << id << endl;
+		cout << "Id    = " << id << endl;
 		cout << "Nama  = " << nama << endl;
 		cout << "Nilai = " << nilai << endl;
 	}
 		
 };
+
+int main() {
+	mahasiswa mhs(12, "Asroni", 90,5);
+	mahasiswa mhs2(16, "")
+
+	return 0;
+}
