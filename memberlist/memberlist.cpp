@@ -1,8 +1,7 @@
-#include <iostream>
+#include<iostream>
 #include <string>
 using namespace std;
 
-//nama repo: ParadigmaOOP1_0110 Commit 15 
 class mahasiswa {
 private:
 	const int id;
@@ -10,21 +9,19 @@ private:
 	float nilai;
 
 public:
-	mahasiswa (int pId, string pNama, float PNilai)
-		:id(pId), nama(pNama), nilai(PNilai) {
+	mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama), nilai(pNilai) {
 		//Definisi
 	}
 
 	~mahasiswa() {
-		cout << "Id    = " << id << endl;
+		cout << "ID    = " << id << endl;
 		cout << "Nama  = " << nama << endl;
 		cout << "Nilai = " << nilai << endl;
 	}
-		
 };
 
 int main() {
-	mahasiswa mhs(12, "Asroni", 90,5);
+	mahasiswa mhs(12, "Asroni", 90.5);
 
 	return 0;
 }
