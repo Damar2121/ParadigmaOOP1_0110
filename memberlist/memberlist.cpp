@@ -10,8 +10,8 @@ private:
 	float nilai;
 
 public:
-	mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama) {
-		//definisi
+	mahasiswa (int pId, string pNama, float pNilai) :id(pId), nama(pNama) {
+		//Definisi
 	}
 
 	~mahasiswa() {
