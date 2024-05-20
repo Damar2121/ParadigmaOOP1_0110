@@ -13,4 +13,10 @@ public:
 	~pasien() {
 		cout << "pasien \"" << nama << "\" ada \"";
 	}
-}
+	void tambahDokter(dokter*);
+	void cetakDokter();
+};
+
+class dokter {
+
+};
